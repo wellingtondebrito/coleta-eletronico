@@ -50,4 +50,6 @@ public class ElectronicWasteServiceImpl implements ElectronicWasteService {
         repository.delete(entity);
     }
 
+
+
 }

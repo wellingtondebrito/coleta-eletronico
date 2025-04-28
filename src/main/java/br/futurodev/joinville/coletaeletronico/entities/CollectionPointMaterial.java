@@ -22,4 +22,5 @@ public class CollectionPointMaterial {
     @Column(nullable = false)
     private Double maxCapacity;
 
+
 }
