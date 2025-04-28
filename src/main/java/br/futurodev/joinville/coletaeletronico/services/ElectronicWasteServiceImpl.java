@@ -18,8 +18,8 @@ public class ElectronicWasteServiceImpl implements ElectronicWasteService {
 
     @Override
     public List<ElectronicWasteResponseDto> getAll(){
-        List<ElectronicWaste> eletronic = repository.findAll();
-        return ElectronicWasteMapper.toResponseDtos(eletronic);
+        List<ElectronicWaste> electronic = repository.findAll();
+        return ElectronicWasteMapper.toResponseDtos(electronic);
     }
 
     @Override

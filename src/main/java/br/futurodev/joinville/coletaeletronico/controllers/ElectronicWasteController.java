@@ -14,7 +14,7 @@ import java.util.List;
 
 @RequiredArgsConstructor
 @RestController
-@RequestMapping("/eletronic-waste")
+@RequestMapping("/electronic-wastes")
 
 public class ElectronicWasteController {
 

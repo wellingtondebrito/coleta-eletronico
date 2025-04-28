@@ -11,4 +11,6 @@ public interface ElectronicWasteService {
     ElectronicWasteResponseDto create(ElectronicWasteRequestDto electronicWaste);
     ElectronicWasteResponseDto update(Long id, ElectronicWasteRequestDto electronicWaste);
     void delete(Long id);
+
+
 }
